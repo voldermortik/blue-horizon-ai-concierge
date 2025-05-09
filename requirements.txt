@@ -1,0 +1,65 @@
+# Core Dependencies
+streamlit==1.41.1
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+inflection==0.5.1
+python-magic==0.4.27
+
+# Database
+sqlalchemy==2.0.37
+psycopg2-binary==2.9.10
+asyncpg==0.30.0
+
+# AI/ML
+openai==1.59.6
+llama-index-core==0.12.10.post1
+llama-index-embeddings-openai==0.3.1
+llama-index-vector-stores-chroma==0.4.1
+llama-index-llms-openai==0.3.13
+llama-index-llms-anthropic==0.6.3
+llama-index-llms-gemini==0.4.2
+sentence-transformers==2.7.0
+tiktoken==0.6.0
+pyautogen==0.6.1
+langchain==0.3.13
+google-cloud-aiplatform==1.75.0
+google-generativeai==0.8.3
+flaml[automl]==2.3.3
+torch==2.2.2
+onnxruntime==1.19.2
+
+# Data Processing
+pandas==1.5.3
+numpy==1.26.4
+faker==8.0.0
+tqdm==4.66.1
+
+# Caching and Storage
+redis==5.2.1
+chromadb==0.6.2
+
+# Utilities
+python-dotenv==1.0.1
+tenacity==8.5.0
+nest-asyncio==1.6.0
+python-dateutil==2.9.0.post0
+requests==2.32.3
+tabulate==0.9.0
+timezonefinder==6.5.7
+geopy==2.4.1
+pytz==2024.2
+certifi==2024.12.14
+
+# Authentication
+python-jose[cryptography]==3.3.0
+
+# NLP
+spacy==3.8.3
+spacy-legacy==3.0.12
+spacy-loggers==1.0.5
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0.tar.gz
+
+# Testing and Development
+pytest==8.3.4
+pytest-cov==6.0.0
+pylint==3.3.3
